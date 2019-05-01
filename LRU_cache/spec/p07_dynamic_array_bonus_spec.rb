@@ -1,5 +1,6 @@
 require 'rspec'
 require 'p07_dynamic_array_bonus'
+require 'byebug'
 
 describe DynamicArray do
   let(:arr) { DynamicArray.new(3) }
