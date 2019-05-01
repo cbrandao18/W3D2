@@ -13,10 +13,10 @@ class Node
     "#{@key}: #{@val}"
   end
 
-  def remove
-    # optional but useful, connects previous link to next link
-    # and removes self from list.
-  end
+  # def remove
+  #   # optional but useful, connects previous link to next link
+  #   # and removes self from list.
+  # end
 end
 
 class LinkedList
@@ -77,6 +77,7 @@ class LinkedList
     new_node.prev = second_to_last
     new_node.next = @tail
 
+    return new_node
   end
 
   def update(key, val)
